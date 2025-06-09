@@ -42,6 +42,7 @@ nth harmonic：そのプロセス自体をメタレベルで再統合する構�
 波が波自身に干渉しながら進化するという、非線形で螺旋的な成長構造を表す。
 
 数式的に記述するならば：
+```python
 def recursive_harmonic(base_wave, iteration=1):
     if iteration == 0:
         return base_wave
